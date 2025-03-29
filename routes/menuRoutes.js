@@ -60,7 +60,7 @@ router.put('/:id',async (req,res)=>{
         res.status(500).json({error:'Internal Server Error'});
     }
 })
-
+//hello user
 router.delete('/:id',async (req,res)=>{
     try{
         const menuId = req.params.id;
